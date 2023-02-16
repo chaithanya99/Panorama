@@ -33,4 +33,4 @@ def result():
         join_images(left_image_file_path,right_image_file_path,output_image_file_path)
         return render_template("result.html",user_image=output_image_file_path)
 if __name__=='__main__':
-    app.run(host='0.0.0.0',port = 5000,debug=True)
+    app.run(host='0.0.0.0',port = 5000,debug=False)
