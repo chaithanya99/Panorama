@@ -1,3 +1,4 @@
+--upgrade pip
 altgraph==0.17.2
 asttokens==2.1.0
 backcall==0.2.0
